@@ -1,4 +1,4 @@
-# Nibbleblog-BruteForce
+# Nibbleblog bruteforce for the login portal
 Nibbleblog is a CMS that has the peculiarity of blocking the IP address that attempts to log in after 5 failed login requests. To prevent this, the **X-Forwarded-For** header and a random IP generator are used in this script.
 
 The login panel URL, dictionary and user to bruteforce (**admin** as default) should be modified if necessary.
