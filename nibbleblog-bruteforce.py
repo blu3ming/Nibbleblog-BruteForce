@@ -2,7 +2,6 @@ from random import randint
 import requests
 
 password_file = '/usr/share/wordlists/rockyou.txt'
-rhost = '10.10.10.75'
 url = "http://10.10.10.75/nibbleblog/admin.php"
 
 def makeRequest(ip, password):
